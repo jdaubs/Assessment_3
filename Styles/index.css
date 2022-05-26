@@ -1,25 +1,24 @@
-  * {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap'); /*Imported fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@400;600&family=Oswald:wght@300&family=Roboto:wght@100&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
 
   body {
-   padding-left: 13em;
-   font-family: Georgia, "Times New Roman",
-          Times, serif;
+   padding-left: 14em;
 		  color: black;
-    background-color: #FAF9F6 }
+    background-color: #FAF9F6 } /*Off-white*/
 	 ul.navbar {
     position: absolute;
     list-style-type: none;
-    padding-top: 1em;
+    padding-top: 5em;
     margin: 0;
     left: 1em;
     width: 11.5em }
-	h1 {
-    font-family: Helvetica, Geneva, Arial,
-          SunSans-Regular, sans-serif }
   ul.navbar a {
     text-decoration: none }
   a:link {
@@ -31,13 +30,14 @@
     padding-top: 1em;
     border-top: thin dotted }
 
-    .navbar {
-      overflow: hidden;
-    }
+.navbar {
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif;
+}
 
     .navbar a {
       float: left;
-      color: #black;
+      color: #000000; /*Black*/
       text-align: left;
       padding: 14px 16px;
       text-decoration: none;
@@ -49,31 +49,40 @@
     }
 
     a:hover {
-      background-color: #27445C;
+      background-color: #27445C; /*Navy*/
       color: white;
     }
 
-    h1 {
-      position: relative;
-      left: 0;
-      right: 0;
-      background: #27445C;
-      height: auto;
-      width: 100vw;
-      padding-top: 40px;
-      padding-bottom: 1em;
-      text-align: center;
-      color: #fff;
-    }
+h1 { /*header banner*/
+    font-family: 'Akshar', sans-serif;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    background: #27445C; /*Navy*/
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 2em;
+    text-align: center;
+    color: #fff;
+}
 
-    footer{
+body {
+    margin-top: 190px;
+}
+
+p {
+    font-family: 'Akshar', sans-serif;
+}
+
+footer { /*footer banner*/
+    font-family: 'Akshar', sans-serif;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    background: #27445C;
+    background: #27445C; /*Navy*/
     height: auto;
-    width: 100vw;
     padding-top: 40px;
     padding-bottom: 2em;
     text-align: center;
